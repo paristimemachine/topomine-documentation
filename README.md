@@ -1,2 +1,1 @@
-# topomine-documentation
-Topomine documentation
+# Topomine : documentation
