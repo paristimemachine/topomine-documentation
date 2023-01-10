@@ -3,11 +3,11 @@ site_name: Topomine &mdash; Documentation
 site_url: https://paris-timemachine.huma-num.fr/app/topomine/doc/
 site_author: EG/EM (PTM)
 site_description: >-
-  Documentation de Topomine
+  Description de la documentation de Topomine
 
 theme:
   name: material
-  # custom_dir: overrides
+  custom_dir: ./docs/overrides
   language: fr
 
   features:

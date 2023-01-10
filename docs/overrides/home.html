@@ -1,0 +1,50 @@
+{% extends "main.html" %}
+{% block tabs %}
+  {{ super() }}
+<style>.md-header{position:initial}.md-main__inner{margin:0}.md-content{display:none}@media screen and (min-width:60em){.md-sidebar--secondary{display:none}}@media screen and (min-width:76.25em){.md-sidebar--primary{display:none}}</style>
+  <section class="mdx-container">
+    <div class="md-grid md-typeset">
+      <div class="mdx-hero">
+        <div class="mdx-hero__content">
+          <br>
+          <br>
+
+          <h1>Topomine</h1>
+          <p>{{ config.site_description }}</p>
+
+          <br>
+
+          <div>
+            <a href="{{ page.next_page.url | url }}" title="{{ page.next_page.title | e }}" class="md-button md-button--primary">
+                Quick start
+              </a>
+              &nbsp;&nbsp; Description quick start
+          </div>
+
+          <br>
+          <br>
+
+          <div>
+            <a href="{{ 'dossier_0/' | url }}" title="Dossier 0" class="md-button md-button--primary">
+                Dossier 0
+            </a>
+            &nbsp;&nbsp; Description dossier 0
+          </div>
+
+          <br>
+          <br>
+
+          <div>
+            <a href="{{ 'dossier_1/' | url }}" title="Dossier 1" class="md-button md-button--primary">
+                Dossier 1
+            </a>
+            &nbsp;&nbsp; Description dossier 1
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+{% endblock %}
+{% block content %}{% endblock %}
+{% block footer %}{% endblock %}
