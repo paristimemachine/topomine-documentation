@@ -4,7 +4,7 @@ template: main.html
 
 # Quick start
 
-L'application est disponible à l'adresse : [paris-timemachine.huma-num.fr/topomine](https://paris-timemachine.huma-num.fr/topomine/){target="_blank"}
+L'application est disponible à l'adresse : [paris-timemachine.huma-num.fr/app/topomine](https://paris-timemachine.huma-num.fr/app/topomine/){target="_blank"}
 
 <!-- ## Documentation actuelle -->
 
@@ -12,9 +12,9 @@ L'application est disponible à l'adresse : [paris-timemachine.huma-num.fr/topom
 
 ## Recherche
 
-les fonctionnalités de recherche et d'affichage que nous proposons sont relativement simples et directes. L'interface présente en haut une barre de recherche centrale sur laquelle l'utilisateur peut entrer un texte de recherche. L'action de la touche entrée ou du bouton rechercher va déclencher une recherche et si des résultats sont présents, une couche de données va s'afficher sur la visualisation cartographique et sur la zone de gestion des couches dans la partie gauche de l'application.
+Les fonctionnalités de recherche et d'affichage que nous proposons sont relativement simples et directes. L'interface présente en haut une barre de recherche centrale à partir de laquelle l'utilisateur peut entrer un texte de recherche. L'action de la touche Entrée ou du bouton Rechercher va déclencher une recherche et s'il existe des résultats pour la recherche effectuée, une couche de données va s'afficher au sein de la visualisation cartographique ainsi que dans la zone de gestion des couches dans la partie gauche de l'application.
 
-La recherche est configurable à droite de la barre de recherche de manière à rechercher parmi toutes les bases de données, ou de sélectionner une ou plusieurs des bases disponibles.
+Les options de recherche avancée sont disponibles à partir du bouton situé à droite de la barre de recherche, de manière à pouvoir sélectionner une ou plusieurs bases de données parmi celles proposées afin d'effectuer la recherche, mais également des modes plus avancés de recherche.
 
 ## Recherche avec métacaractères
 
@@ -37,7 +37,7 @@ Dès lors, il est possible d'interroger les bases à  partir de préfixes ou de 
 
 Une utilisation de Topomine plus avancée est possible grâce à l'emploi d'expressions régulières - ou regex[^1]. Celles-ci fournissent un moyen simple de repérer des schémas dans une chaîne de caractères en utilisant d'autres métacaractères et/ou des opérateurs qui, une fois assemblés, permettent d'aller encore plus loin dans l'interrogation des bases de données toponymiques. Cette fonctionnalité s'active en sélectionnant l'option "Expression Régulière" disponible dans la recherche avancée de Topomine.
 
-[^1]: Différents guides sont disponibles décrivant les caractères et opérateurs de expressions régulières, voir par exemple : [https://developer.mozilla.org/fr/docs/Web/JavaScript/Guide/Regular_Expressions/Cheatsheet](https://developer.mozilla.org/fr/docs/Web/JavaScript/Guide/Regular_Expressions/Cheatsheet)
+[^1]: Différents guides sont disponibles décrivant les caractères et opérateurs de expressions régulières, voir par exemple [le guide proposé par Mozilla](https://developer.mozilla.org/fr/docs/Web/JavaScript/Guide/Regular_Expressions/Cheatsheet){target="_blank"}
 
 Grâce à ces expressions, il devient par exemple possible :
 
