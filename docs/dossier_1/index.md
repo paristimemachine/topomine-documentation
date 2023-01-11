@@ -2,18 +2,18 @@
 template: main.html
 ---
 
-# Dossier 1
+# Exemples et cas d'études
 
 Aa
 
-## Aa
+## Toponymie relationnelle
 
 Aa
 
-## Bb
+## Toponymie littéraire
 
 Bb
 
-## Cc
+## Toponymie politique
 
 Cc

@@ -4,9 +4,11 @@ template: main.html
 
 # Quick start
 
-## Documentation actuelle
+L'application est disponible à l'adresse : [paris-timemachine.huma-num.fr/topomine](https://paris-timemachine.huma-num.fr/topomine/){target="_blank"}
 
-* `Documentation PTM` - [https://paris-timemachine.huma-num.fr/docs/topomine/](https://paris-timemachine.huma-num.fr/docs/topomine/){target="_blank"}
+<!-- ## Documentation actuelle -->
+
+<!-- * `Documentation PTM` - [https://paris-timemachine.huma-num.fr/docs/topomine/](https://paris-timemachine.huma-num.fr/docs/topomine/){target="_blank"} -->
 
 ## Lorem ipsum
 

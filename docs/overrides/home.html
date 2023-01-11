@@ -9,36 +9,46 @@
           <br>
           <br>
 
-          <h1>Topomine</h1>
+          <h1>Topomine : exploration itérative de la toponymie française</h1>
           <p>{{ config.site_description }}</p>
 
           <br>
 
           <div>
             <a href="{{ page.next_page.url | url }}" title="{{ page.next_page.title | e }}" class="md-button md-button--primary">
+                Contexte
+              </a>
+              &nbsp;&nbsp; Description du contexte de l'application Topomine
+          </div>
+
+          <br>
+          <br>
+
+          <div>
+            <a href="{{ page.next_page.url | url }}" title="{{ page.next_page.title | e }}" class="md-button md-button--primary">
                 Quick start
               </a>
-              &nbsp;&nbsp; Description quick start
+              &nbsp;&nbsp; Pour bien commencer
           </div>
 
           <br>
           <br>
 
           <div>
-            <a href="{{ 'dossier_0/' | url }}" title="Dossier 0" class="md-button md-button--primary">
-                Dossier 0
+            <a href="{{ 'dossier_0/' | url }}" title="Requêtes" class="md-button md-button--primary">
+              Requêtes
             </a>
-            &nbsp;&nbsp; Description dossier 0
+            &nbsp;&nbsp; Table des métacaractères et opérateurs
           </div>
 
           <br>
           <br>
 
           <div>
-            <a href="{{ 'dossier_1/' | url }}" title="Dossier 1" class="md-button md-button--primary">
-                Dossier 1
+            <a href="{{ 'dossier_1/' | url }}" title="Exemples" class="md-button md-button--primary">
+              Exemples
             </a>
-            &nbsp;&nbsp; Description dossier 1
+            &nbsp;&nbsp; Exemples de requêtes et cartes produites
           </div>
 
         </div>
