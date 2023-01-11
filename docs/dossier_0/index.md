@@ -6,14 +6,10 @@ template: main.html
 
 Aa
 
-## Aa
+## Table des opérateurs pour les requêtes simples
 
 Aa
 
-## Bb
+## Table des opérateurs pour les requêtés étendues (expression régulière - regex)
 
 Bb
-
-## Cc
-
-Cc

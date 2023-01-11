@@ -115,9 +115,7 @@ nav:
   - Home: index.md
   - Contexte: contexte.md
   - Quick start: quick_start.md
-  - Requêtes:
-    - Requêtes simples: dossier_0/nav1.md
-    - Requêtes étendues: dossier_0/nav2.md
+  - Requêtes: requetes.md
   - Cas d'études:
     # - Dossier 1 index: dossier_1/index.md
     - Toponymie relationnelle: dossier_1/nav1.md
