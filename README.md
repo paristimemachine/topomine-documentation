@@ -19,3 +19,7 @@ Install Python dependencies
 ## Run Material for MkDocs
 
     mkdocs serve
+
+## Build site
+
+    mkdocs build
