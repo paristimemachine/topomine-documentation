@@ -74,5 +74,18 @@ plugins:
 
 markdown_extensions:
   - admonition
+  - attr_list
   - pymdownx.details
   - pymdownx.superfences
+
+# Page tree
+nav:
+  - Home: index.md
+  - Quick start: quick_start.md
+  - Dossier 0:
+    - Dossier 0 index: dossier_0/index.md
+  - Dossier 1:
+    # - Dossier 1 index: dossier_1/index.md
+    - Nav 1: dossier_1/nav1.md
+    - Nav 2: dossier_1/nav2.md
+    - Nav 3: dossier_1/nav3.md
