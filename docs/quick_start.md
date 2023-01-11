@@ -32,7 +32,6 @@ Dès lors, il est possible d'interroger les bases à  partir de préfixes ou de 
 |:--:| |
 | Toponymes avec un préfixe en belle-| Toponymes avec un suffixe en -ac |
 
-
 ## Recherche avancée par expression régulière
 
 Une utilisation de Topomine plus avancée est possible grâce à l'emploi d'expressions régulières - ou regex[^1]. Celles-ci fournissent un moyen simple de repérer des schémas dans une chaîne de caractères en utilisant d'autres métacaractères et/ou des opérateurs qui, une fois assemblés, permettent d'aller encore plus loin dans l'interrogation des bases de données toponymiques. Cette fonctionnalité s'active en sélectionnant l'option "Expression Régulière" disponible dans la recherche avancée de Topomine.
@@ -52,4 +51,4 @@ Grâce à ces expressions, il devient par exemple possible :
 - d'effectuer une recherche stricte, la requête **^paris$** ne renverra que les toponymes ne contenant strictement que paris,
 - de combiner des termes et des opérateurs pour effectuer une recherche plus avancées comme de tous les toponymes commençant par n'importe quelle lettre de l'alphabet, finissant par une voyelle qui n'est pas un y et d'une longueur de 12 caractères. La requête suivante **^[a-z]{12}[aeiou]\$** permet cette interrogation et est représentée sur la figure \ref{requete_complexe_12caracteres}.
 
-Pour aller plus loin, consuler la page Requêtes.
+Pour aller plus loin, consulter la page Requêtes.
