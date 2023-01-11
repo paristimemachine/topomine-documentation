@@ -116,8 +116,8 @@ nav:
   - Contexte: contexte.md
   - Quick start: quick_start.md
   - Requêtes: requetes.md
-  - Cas d'études:
+  # - Cas d'études:
     # - Dossier 1 index: dossier_1/index.md
-    - Toponymie relationnelle: dossier_1/nav1.md
-    - Toponymie littéraire: dossier_1/nav2.md
-    - Toponymie politique: dossier_1/nav3.md
+    # - Toponymie relationnelle: dossier_1/nav1.md
+    # - Toponymie littéraire: dossier_1/nav2.md
+    # - Toponymie politique: dossier_1/nav3.md
