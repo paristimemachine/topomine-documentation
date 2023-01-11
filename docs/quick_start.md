@@ -1,6 +1,5 @@
 ---
 template: main.html
-title: Quick start
 ---
 
 # Quick start
