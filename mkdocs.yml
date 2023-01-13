@@ -3,7 +3,15 @@ site_name: Topomine &mdash; Documentation
 site_url: https://paris-timemachine.huma-num.fr/app/topomine/doc/
 site_author: EG/EM (PTM)
 site_description: >-
-  Topomine est une application web permettant d'explorer et de visualiser des données relatives à la toponymie en France. La toponymie est porteuse de sens multiples sur le temps long et parfois cachés dans l'évolution des langues et dialectes français. Agrégeant plusieurs bases de données issues de différents producteurs, l'outil Topomine allie une recherche avancée par mots-clés qui permet de faire émerger et de révéler des logiques spatiales sous-jacentes à certains phénomènes d'études en histoire, en géographie, en études environnementales, en littérature, en études du genre ou encore en généalogie.
+  Topomine est une application web permettant d'explorer et de visualiser
+  des données relatives à la toponymie en France. La toponymie est porteuse
+  de sens multiples sur le temps long et parfois cachés dans l'évolution
+  des langues et dialectes français. Agrégeant plusieurs bases de données
+  issues de différents producteurs, Topomine allie une recherche avancée
+  par mots-clés qui permet de faire émerger et de révéler des logiques
+  spatiales sous-jacentes à certains phénomènes d'études en histoire,
+  en géographie, en études environnementales, en littérature, en études
+  du genre ou encore en généalogie.
 
 
 # Repository
@@ -114,7 +122,7 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Contexte: contexte.md
-  - Quick start: quick_start.md
+  - Bien démarrer: bien_demarrer.md
   - Requêtes: requetes.md
   # - Cas d'études:
     # - Dossier 1 index: dossier_1/index.md

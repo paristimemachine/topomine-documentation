@@ -6,9 +6,9 @@ template: main.html
 
 <!-- * `Documentation PTM` - [https://paris-timemachine.huma-num.fr/docs/topomine/](https://paris-timemachine.huma-num.fr/docs/topomine/){target="_blank"} -->
 
-L'application web Topomine développée dans le but de pouvoir interroger, visualiser et explorer des données relatives à la toponymie française. La toponymie est porteuse de sens multiples sur le temps long et parfois cachés dans l'évolution des langues et dialectes français : noms de familles, accidents topographiques, noms de plantes, noms de métiers, etc..
+L'application web Topomine développée dans le but de pouvoir interroger, visualiser et explorer des données relatives à la toponymie française. La toponymie est porteuse de sens multiples sur le temps long et parfois cachés dans l'évolution des langues et dialectes français : noms de familles, accidents topographiques, noms de plantes, noms de métiers, etc.
 
-Hydronymie, odonymie synphytotoponymie, choronymie, microtoponymie, etc. sont autant de facettes de la toponymie qu'il est possible d'exploiter dans une recherche ciblée.
+Hydronymie, odonymie, synphytotoponymie, choronymie, microtoponymie, etc. sont autant de facettes de la toponymie qu'il est possible d'exploiter dans une recherche ciblée.
 
 C'est dans l'idée de pallier à ces multiples problématiques que l'application Topomine a été initialement pensée et conçue.
 

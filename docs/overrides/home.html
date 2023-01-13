@@ -6,51 +6,50 @@
     <div class="md-grid md-typeset">
       <div class="mdx-hero">
         <div class="mdx-hero__content">
-          <br>
-          <br>
+          <div class="md-content__inner">
+            <br>
+            <br>
 
-          <h1>Topomine : exploration itérative de la toponymie française</h1>
-          <p>{{ config.site_description }}</p>
+            <h1>Topomine : exploration itérative de la toponymie française</h1>
+            <p>{{ config.site_description }}</p>
 
-          <br>
+            <br>
 
-          <div>
-            <a href="{{ page.next_page.url | url }}" title="{{ page.next_page.title | e }}" class="md-button md-button--primary">
-                Contexte
-              </a>
-              &nbsp;&nbsp; Description du contexte de l'application Topomine
+            <div>
+                <a href="{{ page.next_page.url | url }}" title="{{ page.next_page.title | e }}" class="md-button md-button--primary" style="width: 200px; text-align: center;">
+                    Contexte
+                </a>
+                &nbsp;&nbsp; Description du contexte de l'application Topomine
+            </div>
+
+            <br>
+
+            <div>
+                <a href="{{ 'bien_demarrer/' | url }}" title="Bien démarrer" class="md-button md-button--primary" style="width: 200px; text-align: center;">
+                    Bien démmarer
+                </a>
+                &nbsp;&nbsp; Prise en main de l'application
+            </div>
+
+            <br>
+
+            <div>
+                <a href="{{ 'requetes/' | url }}" title="Requêtes" class="md-button md-button--primary" style="width: 200px; text-align: center;">
+                Requêtes
+                </a>
+                &nbsp;&nbsp; Table des métacaractères et opérateurs
+            </div>
+
+            <!-- <br>
+            <br>
+
+            <div>
+                <a href="{{ 'dossier_1/' | url }}" title="Exemples" class="md-button md-button--primary">
+                Exemples
+                </a>
+                &nbsp;&nbsp; Exemples de requêtes et cartes produites
+            </div> -->
           </div>
-
-          <br>
-          <br>
-
-          <div>
-            <a href="{{ page.next_page.url | url }}" title="{{ page.next_page.title | e }}" class="md-button md-button--primary">
-                Quick start
-              </a>
-              &nbsp;&nbsp; Pour bien commencer
-          </div>
-
-          <br>
-          <br>
-
-          <div>
-            <a href="{{ 'dossier_0/' | url }}" title="Requêtes" class="md-button md-button--primary">
-              Requêtes
-            </a>
-            &nbsp;&nbsp; Table des métacaractères et opérateurs
-          </div>
-
-          <!-- <br>
-          <br>
-
-          <div>
-            <a href="{{ 'dossier_1/' | url }}" title="Exemples" class="md-button md-button--primary">
-              Exemples
-            </a>
-            &nbsp;&nbsp; Exemples de requêtes et cartes produites
-          </div> -->
-
         </div>
       </div>
     </div>

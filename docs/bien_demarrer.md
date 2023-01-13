@@ -2,9 +2,10 @@
 template: main.html
 ---
 
-# Quick start
+# Bien démmaré avec Topomine
 
-L'application est disponible à l'adresse : [paris-timemachine.huma-num.fr/app/topomine](https://paris-timemachine.huma-num.fr/app/topomine/){target="_blank"}
+L'application est disponible à l'adresse :
+[https://paris-timemachine.huma-num.fr/app/topomine/](https://paris-timemachine.huma-num.fr/app/topomine/){target="_blank"}
 
 <!-- ## Documentation actuelle -->
 
@@ -12,7 +13,7 @@ L'application est disponible à l'adresse : [paris-timemachine.huma-num.fr/app/t
 
 ## Recherche
 
-Les fonctionnalités de recherche et d'affichage que nous proposons sont relativement simples et directes. L'interface présente en haut une barre de recherche centrale à partir de laquelle l'utilisateur peut entrer un texte de recherche. L'action de la touche Entrée ou du bouton Rechercher va déclencher une recherche et s'il existe des résultats pour la recherche effectuée, une couche de données va s'afficher au sein de la visualisation cartographique ainsi que dans la zone de gestion des couches dans la partie gauche de l'application.
+Les fonctionnalités de recherche et d'affichage proposées par Topomine sont relativement simples et directes. L'interface présente en haut une barre de recherche centrale à partir de laquelle l'utilisateur peut entrer un texte de recherche. L'action de la touche Entrée ou du bouton Rechercher va déclencher une recherche et s'il existe des résultats pour la recherche effectuée, une couche de données va s'afficher au sein de la visualisation cartographique ainsi que dans la zone de gestion des couches dans la partie gauche de l'application.
 
 Les options de recherche avancée sont disponibles à partir du bouton situé à droite de la barre de recherche, de manière à pouvoir sélectionner une ou plusieurs bases de données parmi celles proposées afin d'effectuer la recherche, mais également des modes plus avancés de recherche.
 
@@ -51,4 +52,4 @@ Grâce à ces expressions, il devient par exemple possible :
 - d'effectuer une recherche stricte, la requête **^paris$** ne renverra que les toponymes ne contenant strictement que paris,
 - de combiner des termes et des opérateurs pour effectuer une recherche plus avancées comme de tous les toponymes commençant par n'importe quelle lettre de l'alphabet, finissant par une voyelle qui n'est pas un y et d'une longueur de 12 caractères. La requête suivante **^[a-z]{12}[aeiou]\$** permet cette interrogation et est représentée sur la figure \ref{requete_complexe_12caracteres}.
 
-Pour aller plus loin, consulter la page Requêtes.
+Pour aller plus loin, consulter la page [Requêtes](./requetes/).
