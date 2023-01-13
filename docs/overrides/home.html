@@ -2,21 +2,22 @@
 {% block tabs %}
   {{ super() }}
 <style>.md-header{position:initial}.md-main__inner{margin:0}.md-content{display:none}@media screen and (min-width:60em){.md-sidebar--secondary{display:none}}@media screen and (min-width:76.25em){.md-sidebar--primary{display:none}}</style>
+<style>.md-home .md-button{width:200px;text-align:center}.md-typeset .md-home .md-button--primary{background-color:#dd2e57; border-color:#dd2e57; color:white;}</style>
   <section class="mdx-container">
     <div class="md-grid md-typeset">
       <div class="mdx-hero">
         <div class="mdx-hero__content">
           <div class="md-content__inner">
             <br>
-            <br>
-
             <h1>Topomine : exploration itérative de la toponymie française</h1>
             <p>{{ config.site_description }}</p>
-
+            <p>
+                <a href="https://paris-timemachine.huma-num.fr/app/topomine/" class="md-button md-button--primary" target="_blank" title="Accès à l'application Topomine">Accès à l'application Topomine</a>
+            </p>
             <br>
 
-            <div>
-                <a href="{{ page.next_page.url | url }}" title="{{ page.next_page.title | e }}" class="md-button md-button--primary" style="width: 200px; text-align: center;">
+            <div class="md-home">
+                <a href="{{ page.next_page.url | url }}" title="{{ page.next_page.title | e }}" class="md-button md-button--primary">
                     Contexte
                 </a>
                 &nbsp;&nbsp; Description du contexte de l'application Topomine
@@ -24,17 +25,17 @@
 
             <br>
 
-            <div>
-                <a href="{{ 'bien_demarrer/' | url }}" title="Bien démarrer" class="md-button md-button--primary" style="width: 200px; text-align: center;">
-                    Bien démmarer
+            <div class="md-home">
+                <a href="{{ 'bien_demarrer/' | url }}" title="Bien démarrer" class="md-button md-button--primary">
+                    Bien démarrer
                 </a>
                 &nbsp;&nbsp; Prise en main de l'application
             </div>
 
             <br>
 
-            <div>
-                <a href="{{ 'requetes/' | url }}" title="Requêtes" class="md-button md-button--primary" style="width: 200px; text-align: center;">
+            <div class="md-home">
+                <a href="{{ 'requetes/' | url }}" title="Requêtes" class="md-button md-button--primary">
                 Requêtes
                 </a>
                 &nbsp;&nbsp; Table des métacaractères et opérateurs

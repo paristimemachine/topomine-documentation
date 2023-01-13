@@ -2,14 +2,10 @@
 template: main.html
 ---
 
-# Bien démmaré avec Topomine
+# Bien démarrer avec Topomine
 
-L'application est disponible à l'adresse :
+L'application est disponible à l'adresse :<br/>
 [https://paris-timemachine.huma-num.fr/app/topomine/](https://paris-timemachine.huma-num.fr/app/topomine/){target="_blank"}
-
-<!-- ## Documentation actuelle -->
-
-<!-- * `Documentation PTM` - [https://paris-timemachine.huma-num.fr/docs/topomine/](https://paris-timemachine.huma-num.fr/docs/topomine/){target="_blank"} -->
 
 ## Recherche
 
