@@ -2,7 +2,12 @@
 {% block tabs %}
   {{ super() }}
 <style>.md-header{position:initial}.md-main__inner{margin:0}.md-content{display:none}@media screen and (min-width:60em){.md-sidebar--secondary{display:none}}@media screen and (min-width:76.25em){.md-sidebar--primary{display:none}}</style>
-<style>.md-home .md-button{width:200px;text-align:center}.md-typeset .md-home .md-button--primary{background-color:#dd2e57; border-color:#dd2e57; color:white;}</style>
+<style>
+    .md-home .md-button{width:200px;text-align:center}
+    .md-typeset .md-home .md-button--primary{background-color:#dd2e57; border-color:#dd2e57; color:white;}
+    .md-home .md-button--primary:hover{background-color:var(--md-accent-fg-color);border-color:var(--md-accent-fg-color);color:white;}
+    .md-home .md-button--primary:focus{background-color:var(--md-accent-fg-color);border-color:var(--md-accent-fg-color);color:white;}
+</style>
   <section class="mdx-container">
     <div class="md-grid md-typeset">
       <div class="mdx-hero">

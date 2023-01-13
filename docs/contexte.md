@@ -4,7 +4,7 @@ template: main.html
 
 # Contexte
 
-L'application web [Topomine](https://paris-timemachine.huma-num.fr/app/topomine/) développée dans le but de pouvoir interroger, visualiser et explorer des données relatives à la toponymie française. La toponymie est porteuse de sens multiples sur le temps long et parfois cachés dans l'évolution des langues et dialectes français : noms de familles, accidents topographiques, noms de plantes, noms de métiers, etc.
+L'application web [Topomine](https://paris-timemachine.huma-num.fr/app/topomine/) développée dans le but de pouvoir interroger, visualiser et explorer des données relatives à la toponymie française. La toponymie est porteuse de sens multiples sur le temps long et parfois cachés dans l'évolution des langues et dialectes français : noms de famille, accidents topographiques, noms de plantes, noms de métiers, etc.
 
 Hydronymie, odonymie, synphytotoponymie, choronymie, microtoponymie, etc. sont autant de facettes de la toponymie qu'il est possible d'exploiter dans une recherche ciblée.
 
