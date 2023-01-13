@@ -1,7 +1,3 @@
----
-template: main.html
----
-
 # Requêtes
 
 Deux modes d'interrogation sont possibles dans Topomine : les requêtes standards et les requêtes étendues.

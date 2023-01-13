@@ -1,13 +1,7 @@
-{% extends "main.html" %}
+{% extends "twitter_follow.html" %}
 {% block tabs %}
   {{ super() }}
-<style>.md-header{position:initial}.md-main__inner{margin:0}.md-content{display:none}@media screen and (min-width:60em){.md-sidebar--secondary{display:none}}@media screen and (min-width:76.25em){.md-sidebar--primary{display:none}}</style>
-<style>
-    .md-home .md-button{width:200px;text-align:center}
-    .md-typeset .md-home .md-button--primary{background-color:#dd2e57; border-color:#dd2e57; color:white;}
-    .md-home .md-button--primary:hover{background-color:var(--md-accent-fg-color);border-color:var(--md-accent-fg-color);color:white;}
-    .md-home .md-button--primary:focus{background-color:var(--md-accent-fg-color);border-color:var(--md-accent-fg-color);color:white;}
-</style>
+  <style>.md-header{position:initial}.md-main__inner{margin:0}.md-content{display:none}@media screen and (min-width:60em){.md-sidebar--secondary{display:none}}@media screen and (min-width:76.25em){.md-sidebar--primary{display:none}}</style>
   <section class="mdx-container">
     <div class="md-grid md-typeset">
       <div class="mdx-hero">
@@ -61,5 +55,16 @@
     </div>
   </section>
 {% endblock %}
-{% block content %}{% endblock %}
-{% block footer %}{% endblock %}
+<!-- {% block content %}{% endblock %} -->
+{% block footer %}
+    <footer class="md-footer">
+        <div class="md-footer-meta md-typeset">
+        <div class="md-footer-meta__inner md-grid">
+            {% include "partials/copyright.html" %}
+            {% if config.extra.social %}
+            {% include "partials/social.html" %}
+            {% endif %}
+        </div>
+        </div>
+    </footer>
+{% endblock %}

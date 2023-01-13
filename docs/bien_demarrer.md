@@ -1,7 +1,3 @@
----
-template: main.html
----
-
 # Bien démarrer avec Topomine
 
 L'application est disponible à l'adresse :<br/>
@@ -40,9 +36,10 @@ Grâce à ces expressions, il devient par exemple possible :
 - de rechercher parmi les toponymes un préfixe (avec l'opérateur **^**) -- accent circonflexe -- indique le début d'une chaîne de caractère) ou un suffixe (avec l'opérateur **$** -dollar- indique la fin d'une chaîne de caractère. Ainsi les requêtes **^belle** et **ac$** renverront respectivement les toponymes de préfixe en belle- et de suffixe -ac,
 - d'utiliser des opérateurs booléens (le caractère **|**} -- barre verticale, appelée encore "pipe" -- pour l'opérateur ou en logique booléenne, ainsi la requête **paris|marseille** renverra tous les toponymes contenant paris ou marseille. Dans les expressions régulières, contrairement à la recherche simple, la recherche n'est pas stricte. Sur une recherche portant sur la base "Voies nommées", les résultats renvoyés seront par exemple : tous les odonymes relatifs à Paris comme "rue de paris", "avenue de paris",  "route de paris à genève", etc. mais aussi ceux relatifs à Marseille comme "route de nîmes à marseille", "rue jean marseille", etc.
 
-| ![Odonymes des routes portant les termes Paris ou Marseille](assets/images/routes_paris_marseille.png){ width=50% } |
-|:--:|
-|Odonymes des routes portant les termes Paris ou Marseille|
+<figure markdown>
+  ![Odonymes des routes portant les termes Paris ou Marseille](./assets/images/routes_paris_marseille.png){ .image-center width=60% loading=lazy }
+  <figcaption>Odonymes des routes portant les termes Paris ou Marseille</figcaption>
+</figure>
 
 - de rechercher spécifiquement des termes avec des variations de voyelles avec l'expression : "gr[aio]s". Les voyelles entre crochets sont considérés comme possibilités de remplacement. De la même façon, nous retrouverons tous les toponymes contenant gras, gris, gros qui seront renvoyés de manière non stricte,
 - d'effectuer une recherche stricte, la requête **^paris$** ne renverra que les toponymes ne contenant strictement que paris,

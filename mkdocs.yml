@@ -27,9 +27,8 @@ theme:
   logo: assets/images/topomine-logo-original.png
 
   features:
-    - header.autohide
-    # - content.tabs.link
     # - header.autohide
+    # - content.tabs.link
     # - navigation.expand
     - navigation.indexes
     - navigation.footer
@@ -44,34 +43,18 @@ theme:
     - search.suggest
     # - toc.integrate
 
-
-#  palette:
-#    - scheme: default
-#      toggle:
-##        icon: material/toggle-switch-off-outline
-#        icon: material/weather-sunny
-#        name: Passer en mode nuit / Switch to dark mode
-#    - scheme: slate
-#      toggle:
-##        icon: material/toggle-switch
-#        icon: material/weather-night
-#        name: Passer en mode jour / Switch to light mode
-
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
       toggle:
-#        icon: material/toggle-switch-off-outline
-#        icon: material/weather-sunny
-        icon: material/brightness-7
-        name: Passer en mode nuit / Switch to dark mode
+        icon: material/brightness-7 # material/toggle-switch-off-outline / material/weather-sunny
+        name: Passer en mode nuit # Passer en mode nuit / Switch to dark mode
+        
     - media: "(prefers-color-scheme: dark)" 
       scheme: slate
       toggle:
-#        icon: material/toggle-switch
-#        icon: material/weather-night
-        icon: material/brightness-4
-        name: Passer en mode jour / Switch to light mode
+        icon: material/brightness-4 # material/toggle-switch / material/weather-night
+        name: Passer en mode jour # name: Passer en mode jour / Switch to light mode
 
 # extra:
 #   alternate:
@@ -96,18 +79,21 @@ plugins:
       minify_js: true
       minify_css: true
       htmlmin_opts:
-          remove_comments: true
+        remove_comments: true
       cache_safe: true
 
 # Customization
 extra:
   social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/TimeParis
     - icon: fontawesome/brands/github
       link: https://github.com/paristimemachine
 #    - icon: fontawesome/brands/python
 #      link: https://pypi.org/project/mkdocs-material/
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/TimeParis
+
+extra_css:
+  - stylesheets/extra.css
 
 markdown_extensions:
   - admonition
