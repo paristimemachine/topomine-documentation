@@ -25,6 +25,7 @@ theme:
   custom_dir: ./docs/overrides
   language: fr
   logo: assets/images/topomine-logo-original.png
+  favicon: assets/images/topomine-favicon.png
 
   features:
     # - header.autohide
