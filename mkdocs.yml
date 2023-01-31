@@ -48,13 +48,13 @@ theme:
     - media: "(prefers-color-scheme: light)"
       scheme: default
       toggle:
-        icon: material/brightness-7 # material/toggle-switch-off-outline / material/weather-sunny
+        icon: material/lightbulb # material/brightness-7 material/toggle-switch-off-outline / material/weather-sunny
         name: Passer en mode nuit # Passer en mode nuit / Switch to dark mode
         
     - media: "(prefers-color-scheme: dark)" 
       scheme: slate
       toggle:
-        icon: material/brightness-4 # material/toggle-switch / material/weather-night
+        icon: material/lightbulb-outline # material/brightness-4 material/toggle-switch / material/weather-night
         name: Passer en mode jour # name: Passer en mode jour / Switch to light mode
 
 # extra:
