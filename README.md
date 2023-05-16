@@ -1,4 +1,4 @@
-# Topomine : documentation
+# Topomine: documentation
 
 Documentation based on [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/).
 
