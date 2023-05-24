@@ -4,22 +4,37 @@ Documentation based on [Material for MkDocs](https://squidfunk.github.io/mkdocs-
 
 ## Dependencies
 
-- python >= 3.8
+- python >= 3.10
 
 ## Install
 
-Create a [virtualenv](https://docs.python-guide.org/dev/virtualenvs/)
+### Create a [virtualenv](https://docs.python-guide.org/dev/virtualenvs/)
 
-    virtualenv -p python3 venv
+```sh
+virtualenv -p python3.10 venv
+```
+or
 
-Install Python dependencies
+```sh
+python3.10 -m venv venv
+```
 
-    pip install -r requirements.txt
+### Install Python dependencies
 
-## Run Material for MkDocs
+```sh
+pip install -r requirements.txt
+```
 
-    mkdocs serve
+## MkDocs
 
-## Build site
+### Run Material for MkDocs
 
-    mkdocs build
+```sh
+mkdocs serve
+```
+
+### Build site
+
+```sh
+mkdocs build
+```
