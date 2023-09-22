@@ -1,7 +1,7 @@
 # Bien démarrer avec Topomine
 
 L'application est disponible à l'adresse :<br/>
-[https://paris-timemachine.huma-num.fr/app/topomine/](https://paris-timemachine.huma-num.fr/app/topomine/){target="_blank"}
+[https://ptm.huma-num.fr/app/topomine/](https://ptm.huma-num.fr/app/topomine/){target="_blank"}
 
 ## Recherche
 
