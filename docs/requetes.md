@@ -5,7 +5,7 @@ L'accès à cette seconde fonctionnalité s'active en sélectionnant l'option "E
 
 ## Table des opérateurs pour les requêtes standards
 
-Attention, un mot clé entré sans métacaractère dans une requête standard **sera appliquée de manière stricte**. Ainsi, la requête **paris** ne renverra que les toponymes dont la chaîne de caractère est strictement paris.
+Attention, un mot clé entré sans métacaractère dans une requête standard **sera appliquée de manière stricte**. Ainsi, la requête **paris** ne renverra que les toponymes dont la chaîne de caractères est strictement paris.
 
 | Métacaractère | Obtention | Action | Exemple |
 |:-:    |:--    |:--    |:--    |
@@ -20,8 +20,8 @@ Attention, contrairement à une requête standard, un mot clé entré dans une r
 | Métacaractère | Obtention | Action | Exemple |
 |:-:    |:--    |:--    |:--    |
 | **\|** |  barre verticale (Alt gr + 6)| OU Logique | La requête **toulo_** renverra des toulon, toulot, toulos  test|
-| **^** | Accent circonflexe| Indique le début d'une chaîne de caractère| La requête **^chez** renverra chez raymond, chez salignier, chez mermet|
-| **$** | Dollar | Indique la fin d'une chaîne de caractère| La requête **ville$** renverra chez belleville, amnéville, commune de janville, etc.| La requête **ville$** renverra chez belleville, amnéville, commune de janville, etc.|
+| **^** | Accent circonflexe| Indique le début d'une chaîne de caractères| La requête **^chez** renverra chez raymond, chez salignier, chez mermet|
+| **$** | Dollar | Indique la fin d'une chaîne de caractères| La requête **ville$** renverra chez belleville, amnéville, commune de janville, etc.| La requête **ville$** renverra chez belleville, amnéville, commune de janville, etc.|
 | **[]** | Crochet ouvrant, crocher fermant | Une classe de caractères est définie entre []. Par exemple [aio] = une lettre au choix parmi a, i, o. On peut également écrire [a-z] pour dire que la chaîne commence par n'importe quelle lettre de l'alphabet. | La requête **gr[aio]s** renverra les toponymes contenant gras, gros, gris|
 | **[^]**  | Accent circonflexe dans des crochets ouvrant et fermant| Indique une négation dans une classe | La requête **gr[^a]s** renverra tous les toponymes qui ne conntiennent pas **gras** |
 | **?**  | Point d'interrogation| La lettre est facultative (0 ou 1 occurence) | La requête **sources?** renverra tous les toponymes avec le source au singulier et au pluriel, le s étant optionnel |
