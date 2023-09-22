@@ -18,7 +18,7 @@ site_description: >-
 # repo_url: https://github.com/paristimemachine/topomine-docs
 
 # Copyright
-copyright: Paris Time Machine &mdash; 2023
+copyright: PTM &mdash; 2023
 
 theme:
   name: material
