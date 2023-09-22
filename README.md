@@ -2,39 +2,54 @@
 
 Documentation based on [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/).
 
-## Dependencies
+## Installation
+
+### Dependencies
 
 - python >= 3.10
 
-## Install
+### Virtual environment
 
-### Create a [virtualenv](https://docs.python-guide.org/dev/virtualenvs/)
+Create a [virtualenv](https://docs.python-guide.org/dev/virtualenvs/)
 
 ```sh
 virtualenv -p python3.10 venv
 ```
+
 or
 
 ```sh
 python3.10 -m venv venv
 ```
 
-### Install Python dependencies
+Install Python dependencies
 
 ```sh
-pip install -r requirements.txt
+make develop
 ```
 
 ## MkDocs
 
-### Run Material for MkDocs
+Serve the documentation
 
 ```sh
-mkdocs serve
+make serve
 ```
 
-### Build site
+Build static site
 
 ```sh
-mkdocs build
+mkdocs dist
+```
+
+Clean static site
+
+```sh
+mkdocs clean
+```
+
+Clean existing static site, build an updated version, including a zip archive
+
+```sh
+mkdocs dist-zip
 ```
