@@ -39,17 +39,17 @@ make serve
 Build static site
 
 ```sh
-mkdocs dist
+make dist
 ```
 
 Clean static site
 
 ```sh
-mkdocs clean
+make clean
 ```
 
 Clean existing static site, build an updated version, including a zip archive
 
 ```sh
-mkdocs dist-zip
+make dist-zip
 ```
