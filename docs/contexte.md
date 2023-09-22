@@ -22,11 +22,13 @@ L'application Topomine est alors un agrégateur de données relatives à la topo
 
 À ce jour, Topomine intègre 5 différentes bases de données :
 
-- un assemblage des noms de lieux présents dans plusieurs thèmes de l'ensemble des départements de la  [BD TOPO v3 de l'IGN](https://geoservices.ign.fr/documentation/donnees/vecteur/bdtopo){target="_blank"}, à l'exception pour l'instant des DROM-TOM\footnote{DROM-TOM : Départements et Régions d'Outre-Mer et Collectivités d'Outre-Mer},
+- un assemblage des noms de lieux présents dans plusieurs thèmes de l'ensemble des départements de la  [BD TOPO v3 de l'IGN](https://geoservices.ign.fr/documentation/donnees/vecteur/bdtopo){target="_blank"}, à l'exception pour l'instant des DROM-TOM[^4],
 - un assemblage des voies nommées issues également de la même [BD TOPO v3 de l'IGN](https://geoservices.ign.fr/documentation/donnees/vecteur/bdtopo){target="_blank"},
 - la [BD TOPAGE du SANDRE](https://www.sandre.eaufrance.fr/concept/base-de-donnees-sur-la-cartographie-thematique-des-agences-de-leau){target="_blank"} pour l'hydronymie,
 - la base de données [FANTOIR](https://www.data.gouv.fr/fr/datasets/fichier-fantoir-des-voies-et-lieux-dits){target="_blank"} qui ne contient initialement pas d'éléments de géométrie, mais un code de commune INSEE, que nous avons joint avec la couche administrative communale de la BD TOPO v2 datant de 2009,
 - la base de données de l'EHESS dite base de données démographique Cassini : [Des chefs-lieux de Cassini aux communes de France (1756-1999)](https://didomena.ehess.fr/concern/data_sets/6395wb092){target="_blank"}
+
+[^4]: DROM-TOM : Départements et Régions d'Outre-Mer et Collectivités d'Outre-Mer
 
 ## Recherche de toponymes
 
