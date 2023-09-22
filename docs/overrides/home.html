@@ -11,34 +11,34 @@
             <h1>Topomine : exploration itérative de la toponymie française</h1>
             <p>{{ config.site_description }}</p>
             <p>
-                <a href="https://ptm.huma-num.fr/app/topomine/" class="md-button md-button--primary" target="_blank" title="Accès à l'application Topomine">Accès à l'application Topomine</a>
+              <a href="https://ptm.huma-num.fr/app/topomine/" class="md-button md-button--primary" target="_blank" title="Accès à l'application Topomine">Accès à l'application Topomine</a>
             </p>
             <br>
 
             <div class="md-home">
                 <a href="{{ page.next_page.url | url }}" title="{{ page.next_page.title | e }}" class="md-button md-button--primary">
-                    Contexte
+                  Présentation
                 </a>
-                &nbsp;&nbsp; Description du contexte de l'application Topomine
+                &nbsp;&nbsp; Présentation de l'application Topomine
             </div>
 
             <br>
 
             <div class="md-home">
-                <a href="{{ 'bien_demarrer/' | url }}" title="Bien démarrer" class="md-button md-button--primary">
-                    Bien démarrer
-                </a>
-                &nbsp;&nbsp; Prise en main de l'application
+              <a href="{{ 'bien_demarrer/' | url }}" title="Bien démarrer" class="md-button md-button--primary">
+                Bien démarrer
+              </a>
+              &nbsp;&nbsp; Prise en main de l'application
             </div>
 
             <br>
 
             <div class="md-home">
-                <a href="{{ 'requetes/' | url }}" title="Requêtes" class="md-button md-button--primary">
+              <a href="{{ 'requetes/' | url }}" title="Requêtes" class="md-button md-button--primary">
                 Requêtes
-                </a>
-                <!-- &nbsp;&nbsp; Table des métacaractères et opérateurs -->
-                &nbsp;&nbsp; Effectuer des recherches avancées
+              </a>
+              <!-- &nbsp;&nbsp; Table des métacaractères et opérateurs -->
+              &nbsp;&nbsp; Effectuer des recherches avancées
             </div>
 
             <!-- <br>
@@ -58,14 +58,14 @@
 {% endblock %}
 <!-- {% block content %}{% endblock %} -->
 {% block footer %}
-    <footer class="md-footer">
-        <div class="md-footer-meta md-typeset">
+  <footer class="md-footer">
+      <div class="md-footer-meta md-typeset">
         <div class="md-footer-meta__inner md-grid">
-            {% include "partials/copyright.html" %}
-            {% if config.extra.social %}
-            {% include "partials/social.html" %}
-            {% endif %}
+          {% include "partials/copyright.html" %}
+          {% if config.extra.social %}
+          {% include "partials/social.html" %}
+          {% endif %}
         </div>
-        </div>
-    </footer>
+      </div>
+  </footer>
 {% endblock %}

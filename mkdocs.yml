@@ -14,8 +14,8 @@ site_description: >-
   du genre ou encore en généalogie.
 
 # Repository
-# repo_name: paristimemachine/topomine-docs
-# repo_url: https://github.com/paristimemachine/topomine-docs
+repo_name: paristimemachine/topomine-documentation
+repo_url: https://github.com/paristimemachine/topomine-documentation
 
 # Copyright
 copyright: PTM &mdash; 2023
@@ -107,7 +107,7 @@ markdown_extensions:
 # Page tree
 nav:
   - Accueil: index.md
-  - Contexte: contexte.md
+  - Présentation: presentation.md
   - Bien démarrer: bien_demarrer.md
   - Requêtes: requetes.md
   # - Cas d'études:

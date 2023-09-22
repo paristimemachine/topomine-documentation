@@ -45,4 +45,4 @@ Grâce à ces expressions, il devient par exemple possible :
 - d'effectuer une recherche stricte, la requête **^paris$** ne renverra que les toponymes ne contenant strictement que paris,
 - de combiner des termes et des opérateurs pour effectuer une recherche plus avancées comme de tous les toponymes commençant par n'importe quelle lettre de l'alphabet, finissant par une voyelle qui n'est pas un y et d'une longueur de 12 caractères. La requête suivante **^[a-z]{12}[aeiou]\$** permet cette interrogation et est représentée sur la figure \ref{requete_complexe_12caracteres}.
 
-Pour aller plus loin, consulter la page [Requêtes](./requetes/).
+Pour aller plus loin, consulter la page [Requêtes](./requetes.md).
