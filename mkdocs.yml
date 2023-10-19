@@ -74,7 +74,8 @@ plugins:
       lang:
         - fr
         # - en
-#  - with-pdf # doesn't work on Ubuntu 18, work on 20 (requires libpango >= 1.44)
+  - with-pdf: # Ubuntu 20+ as it requires libpango >= 1.44
+      output_path: /tmp/topomine-documentation.pdf
   - minify:
       minify_html: true
       minify_js: true
