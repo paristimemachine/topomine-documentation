@@ -37,3 +37,9 @@ Topomine permet d'effectuer des recherches toponymiques avancées à partir des 
 ## Utilisation
 
 L'ensemble de ces fonctionnalités est librement ouvert à tous les utilisateurs, sans restriction d'accès. Elles sont de plus aisément accessibles, Topomine étant proposé comme une application web sur étagère qui ne requiert aucune installation logicielle de la part des utilisateurs, si ce n'est celle d'un simple navigateur web.
+
+## Article et citation
+
+Si vous utilisez Topomine, merci d'inclure la citation suivante, dont l'article est librement accessible et fournit une présentation complète de l'application :
+
+Eric Mermet, Eric Grosso. Topomine : une application web d'exploration itérative de la toponymie française. 2023. [https://shs.hal.science/halshs-03931476](){target="_blank"}
