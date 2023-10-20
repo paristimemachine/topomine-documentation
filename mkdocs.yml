@@ -75,7 +75,44 @@ plugins:
         - fr
         # - en
   - with-pdf: # Ubuntu 20+ as it requires libpango >= 1.44
-      output_path: /tmp/topomine-documentation.pdf
+      author: Eric Mermet et Eric Grosso (PTM)
+      # copyright: ANY TEXT
+      
+      cover: true
+      # back_cover: true
+      cover_logo: assets/images/topomine-logo-original.png
+      cover_title: Documentation
+      cover_subtitle: Français
+      # custom_template_path: TEMPLATES PATH
+      
+      toc_title: Topomine
+      # heading_shift: false
+      # toc_level: 3
+      # ordered_chapter_level: 2
+      # excludes_children:
+      #    - 'release-notes/:upgrading'
+      #    - 'release-notes/:changelog'
+      
+      # exclude_pages:
+      #    - 'bugs/'
+      #    - 'appendix/contribute/'
+      # convert_iframe:
+      #    - src: IFRAME SRC
+      #      img: POSTER IMAGE URL
+      #      text: ALTERNATE TEXT
+      #    - src: ...
+      # two_columns_level: 3
+      
+      # render_js: true
+      # headless_chrome_path: headless-chromium
+
+      output_path: /tmp/Topomine-documentation.pdf
+      # enabled_if_env: ENABLE_PDF_EXPORT
+
+      debug_html: true
+      # show_anchors: true
+      # verbose: true
+
   - minify:
       minify_html: true
       minify_js: true
