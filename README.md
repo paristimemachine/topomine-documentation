@@ -6,20 +6,20 @@ Documentation based on [Material for MkDocs](https://squidfunk.github.io/mkdocs-
 
 ### Dependencies
 
-- python >= 3.10
+- python >= 3.12
 
 ### Virtual environment
 
 Create a [virtualenv](https://docs.python-guide.org/dev/virtualenvs/)
 
 ```sh
-virtualenv -p python3.10 venv
+virtualenv -p python3.12 venv
 ```
 
 or
 
 ```sh
-python3.10 -m venv venv
+python3.12 -m venv venv
 ```
 
 Install Python dependencies
