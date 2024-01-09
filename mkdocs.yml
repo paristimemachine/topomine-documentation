@@ -18,7 +18,7 @@ repo_name: paristimemachine/topomine-documentation
 repo_url: https://github.com/paristimemachine/topomine-documentation
 
 # Copyright
-copyright: PTM &mdash; 2023
+copyright: PTM &mdash; 2023-2024
 
 theme:
   name: material
@@ -128,8 +128,6 @@ extra:
       link: https://twitter.com/TimeParis
     - icon: fontawesome/brands/github
       link: https://github.com/paristimemachine
-#    - icon: fontawesome/brands/python
-#      link: https://pypi.org/project/mkdocs-material/
 
 extra_css:
   - stylesheets/extra.css
