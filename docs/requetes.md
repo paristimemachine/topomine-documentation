@@ -13,7 +13,7 @@ Attention, un mot clé entré sans métacaractère dans une requête standard **
 | | | Plusieurs jokers underscore peuvent être cumulés| La requête **toul__** renverra des toulan, toulet, toulos, etc|
 | **\*** | Astérisque ou étoile | Joker de remplacement d'un lot indéfini de caractères| La requête **cas\*y** renverra entre autre : castey, castelnaudary, castelmary, etc.|
 
-## Table des opérateurs pour les requêtés étendues (expression régulière - regex)
+## Table des opérateurs pour les requêtes étendues (expression régulière - regex)
 
 Attention, contrairement à une requête standard, un mot clé entré dans une requête avancée **ne sera pas appliquée de manière stricte**. Ainsi, à la manière d'un moteur de recherche, la requête **paris** renverra tous les toponymes contenant paris : paris, le grand paris, parisot bas, parisenea, etc.
 

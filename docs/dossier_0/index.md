@@ -14,6 +14,6 @@ Aa
 
 Aa
 
-## Table des opérateurs pour les requêtés étendues (expression régulière - regex)
+## Table des opérateurs pour les requêtes étendues (expression régulière - regex)
 
 Bb
