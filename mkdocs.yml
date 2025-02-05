@@ -18,7 +18,7 @@ repo_name: paristimemachine/topomine-documentation
 repo_url: https://github.com/paristimemachine/topomine-documentation
 
 # Copyright
-copyright: PTM &mdash; 2023-2024
+copyright: PTM &mdash; 2023-2025
 
 theme:
   name: material
