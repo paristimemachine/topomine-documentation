@@ -7,6 +7,9 @@ clean:
 dist:
 	mkdocs build
 
+dist-pdf:
+	ENABLE_PDF_EXPORT=1 mkdocs build
+
 dist-zip:
 	rm -r site/
 	mkdocs build

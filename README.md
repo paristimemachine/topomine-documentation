@@ -42,6 +42,12 @@ Build static site
 make dist
 ```
 
+Build static site and create PDF documentation
+
+```sh
+make dist-pdf
+```
+
 Clean static site
 
 ```sh
