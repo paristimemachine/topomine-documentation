@@ -1,4 +1,4 @@
-develop:
+install:
 	pip install -r requirements.txt
 
 clean:

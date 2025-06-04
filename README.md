@@ -25,7 +25,7 @@ python3.12 -m venv venv
 Install Python dependencies
 
 ```sh
-make develop
+make install
 ```
 
 ## MkDocs
