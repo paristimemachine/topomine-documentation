@@ -35,3 +35,9 @@
     margin: 10px;
     box-sizing: border-box;
 }
+
+@media (max-width: 768px) {
+    .flex-item {
+        flex: 1 1 100%;
+    }
+}
