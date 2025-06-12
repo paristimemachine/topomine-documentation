@@ -13,7 +13,11 @@ Les options de recherche avancée sont disponibles à partir du bouton situé à
 
 Les métacaractères ou jokers sont des caractères spécifiques permettant d'effectuer des recherches à partir d'un mot, d'un terme ou d'une expression incomplète. Ils autorisent ainsi de combler une partie manquante contenue au sein d'une chaîne de caractères, et donc par extension, favorisent une interrogation plus souple de corpus linguistiques. Par défaut, Topomine propose deux métacaractères que les utilisateurs peuvent utiliser pour effectuer des recherches avancées.
 
+### Métacaractère _
+
 Le premier métacaractère est le caractère tiret bas (underscore en anglais), symbolisé par **_**. Celui-ci permet de combler un unique caractère manquant. Par exemple la recherche du terme **gr_s** recherche les formes gr**a**s, gr**b**s, gr**c**s, etc. Les toponymes **gras**, **gris** et **gros** sont alors révélés, cartographiés et assemblés au sein d'une même couche résultante.
+
+### Métacaractère \*
 
 Le second métacaractère est le caractère astérisque, symbolisé par **\***. Ce dernier permet de remplacer un ou plusieurs caractères. La requête **gr*s** renvoie ainsi des résultats plus hétérogènes : les mêmes **gras**, **gris** et **gros** (un ensemble de caractères pouvant aussi être un unique caractère), mais aussi par exemple et non exhaustivement **grais**, **grandvilliers**, **graviras**, etc., des toponymes contenant des espaces, *e.g.* **grande lyes**, **grands champs**, etc., voire même des toponymes contenant des tirets à l'image de **gros-bois** par exemple. En résumé, tous les toponymes qui commencent par **gr** et qui se terminent par un **s** sont considérés comme des résultats valides.
 
