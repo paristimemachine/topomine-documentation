@@ -42,4 +42,4 @@ L'ensemble de ces fonctionnalités est librement ouvert à tous les utilisateurs
 
 Si vous utilisez Topomine, merci d'inclure la citation suivante, dont l'article est librement accessible et fournit une présentation complète de l'application :
 
-Eric Mermet, Eric Grosso. Topomine : une application web d'exploration itérative de la toponymie française. 2023. [https://shs.hal.science/halshs-03931476](){target="_blank"}
+Eric Mermet, Eric Grosso. Topomine : une application web d'exploration itérative de la toponymie française. 2023. [https://shs.hal.science/halshs-03931476](https://shs.hal.science/halshs-03931476){target="_blank"}

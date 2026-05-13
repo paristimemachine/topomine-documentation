@@ -24,7 +24,7 @@ Le second métacaractère est le caractère astérisque, symbolisé par **\***. 
 Dès lors, il est possible d'interroger les bases à partir de préfixes et/ou de suffixes. Par exemple, tous les toponymes ayant pour préfixe **belle-** sont accessibles à l'aide de la requête **belle\***, et l'ensemble des toponymes ayant pour suffixe **-ac** le sont à l'aide la requête **\*ac**. Les résultats cartographiques suivants illustrent de telles fonctionnalités de recherche.
 
 | ![Cartographie des toponymes avec un suffixe en belle-](assets/images/belle-2-heatmap.png){ .image-center width=100% loading=lazy } | ![Cartographie des toponymes avec un suffixe en -ac](assets/images/ac-2-heatmap.png){ .image-center width=100% loading=lazy } |
-|:--:|:--:|
+| :--: | :--: |
 | Toponymes avec un préfixe en **belle-** | &nbsp;Toponymes avec un suffixe en **-ac**&nbsp;&nbsp; |
 
 ## Recherche avancée par expression régulière
@@ -43,9 +43,9 @@ Grâce à ces expressions, il devient par exemple possible :
   <figcaption>Odonymes des routes portant les termes Paris ou Marseille</figcaption>
 </figure>
 
-- de rechercher spécifiquement des termes avec des variations de voyelles, avec par exemple l'expression **gr[aio]s**. Les voyelles entre crochets sont considérés comme possibilités de remplacement. De la même façon, nous retrouverons tous les toponymes contenant **gras**, **gris** et **gros**, qui seront renvoyés de manière non stricte,
+- de rechercher spécifiquement des termes avec des variations de voyelles, avec par exemple l'expression **gr\[aio]s**. Les voyelles entre crochets sont considérés comme possibilités de remplacement. De la même façon, nous retrouverons tous les toponymes contenant **gras**, **gris** et **gros**, qui seront renvoyés de manière non stricte,
 - d'effectuer une recherche stricte, la requête **^paris$** ne renverra que les toponymes ne contenant strictement que **paris**,
-- de combiner des termes et des opérateurs pour effectuer une recherche plus avancées comme de tous les toponymes commençant par n'importe quelle lettre de l'alphabet, finissant par une voyelle qui n'est pas un **y** et d'une longueur de **12 caractères**. La requête suivante **^[a-z]{12}[aeiou]\$** permet cette interrogation et est représentée sur la figure ci-dessous.
+- de combiner des termes et des opérateurs pour effectuer une recherche plus avancées comme de tous les toponymes commençant par n'importe quelle lettre de l'alphabet, finissant par une voyelle qui n'est pas un **y** et d'une longueur de **12 caractères**. La requête suivante **^\[a-z]{12}\[aeiou]\$** permet cette interrogation et est représentée sur la figure ci-dessous.
 
 <figure markdown>
   ![Toponymes d'une longueur de 12 caractères se terminant par une voyelle autre que y](./assets/images/requete_complexe-12_caracteres.png){ .image-center width=60% loading=lazy }
