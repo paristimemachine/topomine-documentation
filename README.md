@@ -28,7 +28,7 @@ Install Python dependencies
 make install
 ```
 
-## MkDocs
+## Zensical
 
 Serve the documentation
 
@@ -40,12 +40,6 @@ Build static site
 
 ```sh
 make dist
-```
-
-Build static site and create PDF documentation
-
-```sh
-make dist-pdf
 ```
 
 Clean static site
