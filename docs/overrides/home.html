@@ -11,55 +11,36 @@
             <h1>Topomine : exploration itérative de la toponymie française</h1>
             <p>{{ config.site_description }}</p>
 
-            <div class="flex-container">
-              <div class="flex-item">
-                <a href="https://app.ptm.huma-num.fr/topomine/" class="md-button md-button--primary" target="_blank" title="Accès à l'application Topomine">Accès à l'application Topomine</a>
-              </div>
-              <div class="flex-item">
-                <a href="https://plugins.qgis.org/plugins/topomine/" class="md-button md-button--primary" target="_blank" title="Article">Accès à l'extension QGIS</a>
-              </div>
-              <div class="flex-item">
-                <a href="https://shs.hal.science/halshs-03931476" class="md-button md-button--primary" target="_blank" title="Article">Accès à l'article</a>
-              </div>
-            </div>
-
-            <br>
-
-            <div class="md-home">
-                <a href="{{ page.next_page.url | url }}" title="{{ page.next_page.title | e }}" class="md-button md-button--primary">
-                  Présentation
-                </a>
-                &nbsp;&nbsp; Présentation de Topomine
-            </div>
-
-            <br>
-
-            <div class="md-home">
-              <a href="{{ 'bien_demarrer/' | url }}" title="Bien démarrer" class="md-button md-button--primary">
-                Bien démarrer
+            <div class="card-grid">
+              <a href="https://app.ptm.huma-num.fr/topomine/" class="card card--access" target="_blank" title="Accès à l'application Topomine">
+                <span class="card__title">Application Topomine</span>
+                <img src="{{ 'assets/images/topomine-logo.png' | url }}" alt="Topomine" class="card__logo">
               </a>
-              &nbsp;&nbsp; Prise en main de l'application
-            </div>
-
-            <br>
-
-            <div class="md-home">
-              <a href="{{ 'requetes/' | url }}" title="Requêtes" class="md-button md-button--primary">
-                Requêtes
+              <a href="https://plugins.qgis.org/plugins/topomine/" class="card card--access" target="_blank" title="Accès à l'extension QGIS Topomine">
+                <span class="card__title">Extension QGIS</span>
+                <img src="{{ 'assets/images/qgis-logo.svg' | url }}" alt="QGIS" class="card__logo">
               </a>
-              <!-- &nbsp;&nbsp; Table des métacaractères et opérateurs -->
-              &nbsp;&nbsp; Effectuer des recherches avancées
+              <a href="https://shs.hal.science/halshs-03931476" class="card card--access" target="_blank" title="Accès à l'article scientifique">
+                <span class="card__title">Article scientifique</span>
+                <img src="{{ 'assets/images/hal-logo.png' | url }}" alt="HAL" class="card__logo">
+              </a>
             </div>
 
-            <!-- <br>
-            <br>
+            <div class="card-grid">
+              <a href="{{ page.next_page.url | url }}" class="card card--doc" title="{{ page.next_page.title | e }}">
+                <span class="card__title">Présentation</span>
+                <span class="card__desc">Présentation de Topomine</span>
+              </a>
+              <a href="{{ 'bien_demarrer/' | url }}" class="card card--doc" title="Bien démarrer">
+                <span class="card__title">Bien démarrer</span>
+                <span class="card__desc">Prise en main de l'application</span>
+              </a>
+              <a href="{{ 'requetes/' | url }}" class="card card--doc" title="Requêtes">
+                <span class="card__title">Requêtes</span>
+                <span class="card__desc">Effectuer des recherches avancées</span>
+              </a>
+            </div>
 
-            <div>
-                <a href="{{ 'dossier_1/' | url }}" title="Exemples" class="md-button md-button--primary">
-                Exemples
-                </a>
-                &nbsp;&nbsp; Exemples de requêtes et cartes produites
-            </div> -->
           </div>
         </div>
       </div>
