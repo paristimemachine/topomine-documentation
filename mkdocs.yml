@@ -22,7 +22,7 @@ copyright: <a href="https://ptm.huma-num.fr/" target="_blank">PTM</a> &mdash; 20
 
 theme:
   name: material
-  custom_dir: ./docs/overrides
+  custom_dir: ./overrides
   language: fr
   logo: assets/images/topomine-logo-original.png
   favicon: assets/images/topomine-favicon.png
@@ -74,6 +74,7 @@ plugins:
       lang:
         - fr
         # - en
+
   - minify:
       minify_html: true
       minify_js: true
@@ -113,7 +114,7 @@ nav:
   - Bien démarrer: bien_demarrer.md
   - Requêtes: requetes.md
   # - Cas d'études:
-    # - Dossier 1 index: dossier_1/index.md
-    # - Toponymie relationnelle: dossier_1/nav1.md
-    # - Toponymie littéraire: dossier_1/nav2.md
-    # - Toponymie politique: dossier_1/nav3.md
+    # - Dossier 0 index: exemples/index.md
+    # - Toponymie relationnelle: exemples/nav1.md
+    # - Toponymie littéraire: exemples/nav2.md
+    # - Toponymie politique: exemples/nav3.md
