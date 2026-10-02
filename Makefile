@@ -1,16 +1,22 @@
-.PHONY: install clean dist dist-zip serve
+.PHONY: install lock clean dist dist-zip serve
+
+ARCHIVE := topomine-doc.zip
 
 install:
-	pip install -r requirements.txt
+	uv sync
+
+lock:
+	uv lock --upgrade
 
 clean:
-	[ -d site/ ] && rm -r site/ || true
+	@if [ -d site/ ]; then rm -r site/; fi
+	@if [ -f $(ARCHIVE) ]; then rm $(ARCHIVE); fi
 
 dist:
-	zensical build
+	uv run zensical build
 
 dist-zip: clean dist
-	zip -r site/topomine-doc.zip site
+	zip -r $(ARCHIVE) site
 
 serve:
-	zensical serve
+	uv run zensical serve

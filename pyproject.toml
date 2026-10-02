@@ -1,0 +1,24 @@
+[project]
+name = "topomine-documentation"
+version = "0.1.0"
+description = "Documentation for Topomine, a web application to explore and visualise French toponymy, developed within the Huma-Num consortium Projets Time Machine (PTM)"
+readme = "README.md"
+requires-python = ">=3.12"
+license = { file = "LICENSE" }
+authors = [
+    { name = "Eric Mermet" },
+    { name = "Eric Grosso" },
+]
+
+dependencies = [
+    "zensical==0.0.66",
+]
+
+[project.urls]
+Documentation = "https://doc.ptm.huma-num.fr/topomine/"
+Repository = "https://github.com/paristimemachine/topomine-documentation"
+
+# The project is a documentation site, not an installable package: uv only has
+# to resolve and install the dependencies above.
+[tool.uv]
+package = false
