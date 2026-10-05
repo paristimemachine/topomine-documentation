@@ -43,9 +43,9 @@ Grâce à ces expressions, il devient par exemple possible :
   <figcaption>Odonymes des routes portant les termes Paris ou Marseille</figcaption>
 </figure>
 
-- de rechercher spécifiquement des termes avec des variations de voyelles, avec par exemple l'expression **gr\[aio]s**. Les voyelles entre crochets sont considérés comme possibilités de remplacement. De la même façon, nous retrouverons tous les toponymes contenant **gras**, **gris** et **gros**, qui seront renvoyés de manière non stricte,
+- de rechercher spécifiquement des termes avec des variations de voyelles, avec par exemple l'expression **gr\[aio]s**. Les voyelles entre crochets sont considérées comme possibilités de remplacement. De la même façon, nous retrouverons tous les toponymes contenant **gras**, **gris** et **gros**, qui seront renvoyés de manière non stricte,
 - d'effectuer une recherche stricte, la requête **^paris$** ne renverra que les toponymes ne contenant strictement que **paris**,
-- de combiner des termes et des opérateurs pour effectuer une recherche plus avancées comme de tous les toponymes commençant par n'importe quelle lettre de l'alphabet, finissant par une voyelle qui n'est pas un **y** et d'une longueur de **12 caractères**. La requête suivante **^\[a-z]{12}\[aeiou]\$** permet cette interrogation et est représentée sur la figure ci-dessous.
+- de combiner des termes et des opérateurs pour effectuer une recherche plus avancée comme de tous les toponymes commençant par n'importe quelle lettre de l'alphabet, finissant par une voyelle qui n'est pas un **y** et d'une longueur de **12 caractères**. La requête suivante **^\[a-z]{12}\[aeiou]\$** permet cette interrogation et est représentée sur la figure ci-dessous.
 
 <figure markdown>
   ![Toponymes d'une longueur de 12 caractères se terminant par une voyelle autre que y](./assets/images/requete_complexe-12_caracteres.png){ .image-center width=60% loading=lazy }
