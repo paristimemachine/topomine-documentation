@@ -113,6 +113,7 @@ nav:
   - Présentation: presentation.md
   - Bien démarrer: bien_demarrer.md
   - Requêtes: requetes.md
+  # Brouillons dans docs/.exemples/
   # - Cas d'études:
     # - Dossier 0 index: exemples/index.md
     # - Toponymie relationnelle: exemples/nav1.md
