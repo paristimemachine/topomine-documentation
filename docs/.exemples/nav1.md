@@ -1,7 +1,3 @@
----
-template: main.html
----
-
 # Toponymie relationnelle
 
 Aa
